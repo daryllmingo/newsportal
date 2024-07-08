@@ -1,17 +1,11 @@
-body{
-    background: #fff ;
+body {
+    background: #fff;
 }
 
-main{
-    background: red;
-    height: 200px;
-    min-height: auto;
+main {
+    background: #fff;
 }
-.login-form h1{
-    color: #27d436;
-    font-size: 24px;
-    text-align: center;  
-}
+
 /* register-form */
 .register-form {
     background: #468585;
@@ -31,5 +25,19 @@ main{
 }
 
 .register-form label {
-    color: #db2727;
+    color: #fff;
+}
+
+/* login form */
+.login-form {
+    background: #468585;
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.login-form h1 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
 }
